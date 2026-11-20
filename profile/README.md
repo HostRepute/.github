@@ -1,8 +1,17 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HostRepute/.github/main/profile/assets/logo-dark.png">
+    <img src="https://raw.githubusercontent.com/HostRepute/.github/main/profile/assets/logo.png" alt="HostRepute" width="320">
+  </picture>
+</p>
+
 ## Email reputation monitoring for teams that send email
 
 HostRepute checks the domains and IP addresses you send from against 80+ DNS blocklists around the clock and alerts you the moment one is listed or removed. It also checks your email authentication records, TLS certificates, uptime and domain expiry, and reads what Gmail and Outlook.com report about your mail.
 
 [Website](https://hostrepute.com) · [Free tools](https://hostrepute.com/tools) · [Documentation](https://docs.hostrepute.com) · [API reference](https://docs.hostrepute.com/api/) · [Pricing](https://hostrepute.com/pricing)
+
+<img src="https://raw.githubusercontent.com/HostRepute/.github/main/profile/assets/overview.webp" alt="The HostRepute Overview: a warning that two domains or IPs are on a blocklist, the team's reputation score and the setup checklist" width="100%">
 
 ### What HostRepute watches
 
@@ -14,6 +23,29 @@ HostRepute checks the domains and IP addresses you send from against 80+ DNS blo
 When something changes, HostRepute alerts you by email, Slack, Telegram, Discord, PagerDuty, Pushover or webhook, and helps you respond: each blocklist's removal steps, manual scans, campaign preflight checks and an AI assistant that answers from your own monitoring data.
 
 Need a one-off answer? The [free diagnostic tools](https://hostrepute.com/tools) and the [reputation check](https://hostrepute.com/check) work without an account.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/HostRepute/.github/main/profile/assets/domain-listed.webp" alt="A domain listed on 2 blocklists, with its reputation score of 49 and what the score is made of">
+      <b>Domains and IPs</b> show which blocklists list them and what drives their score.
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/HostRepute/.github/main/profile/assets/delisting-requests.webp" alt="Delisting requests: listings without a request and a Spamhaus removal request waiting for the list">
+      <b>Delisting requests</b> walk you through each blocklist's removal process.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/HostRepute/.github/main/profile/assets/certificates.webp" alt="Certificates: an SMTP STARTTLS certificate expiring soon, a valid webmail certificate and an untrusted one">
+      <b>Certificates</b> on websites and mail servers, checked for expiry, trust and revocation.
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/HostRepute/.github/main/profile/assets/ai-assistant.webp" alt="AI assistant answering how mail.example.com is doing from reputation scores and blocklist status">
+      <b>AI assistant</b> that answers from your own monitoring data.
+    </td>
+  </tr>
+</table>
 
 ### Build on HostRepute
 
